@@ -1,0 +1,143 @@
+.container {
+               padding: 30px 30px 0px 30px;  
+             
+                       
+           }
+           .results {            
+              /*  line-height: 1.25rem;
+               padding-top: 15; 
+              /* width: 45%;   */ 
+              margin-left: 10px;
+              padding-left: 20px;  
+              float:left;  
+              overflow: auto;  
+              width: 80%;    
+              color: #444;        
+              
+           }
+           .menu {            
+              /*  line-height: 1.25rem;
+               padding-top: 15; 
+              /* width: 45%;   */ 
+              float:left; 
+              overflow: auto;  
+              width: 10%;            
+             
+           }
+
+           .leffa {            
+                line-height: 1.25rem;
+               padding: 10px; 
+               margin-right: 20px;
+               margin-bottom: 15px;
+               width: 25%;
+               height: 200px;   
+               float: left;    
+               border: 1px solid #444;
+                box-sizing: border-box;
+                box-shadow: 5px 5px #ddd;
+                background-color: #fff;
+  
+           }
+
+           .header {
+               
+               padding: 20px;
+               text-align: center;
+               background: #d04e3e;
+               color: white;
+               font-size: 1em;
+  
+             }
+           
+           body {
+                font-family: tahoma;
+                font-size:  0.875rem;
+                letter-spacing: 0.75px;
+                color: #333;
+                background-color: #ffffff;
+           }
+
+           h2, h1 {
+               margin-bottom: 30px;
+            color:#16b68b;
+                
+           }
+           input[type=submit] {
+                background-color: #1b7a61;
+                border: none;
+                color: white;
+                padding: 3px 20px 3px 20px;
+                text-decoration: none;
+                font-weight: bold;
+                cursor: pointer;
+                letter-spacing: 1px;
+            }
+
+            input[type=text] {
+                 margin: 0px 5px 7px 0px; 
+            }
+            
+            .btn {
+                border: none;
+                background-color: #3f2e3e;
+                width: 100px;
+                padding: 9px;
+                margin-bottom: 1px;
+                font-size: 12px;
+                cursor: pointer;
+                display: inline-block;
+                color: white;
+                font-weight: bold;             
+            }
+
+            .form-group{
+               margin-bottom: 10px;
+            }
+
+            .form-control {
+               width:    300px;
+               margin-top: 5px;
+               
+            }
+
+             /* Style the tab - NAVIGOINTI JA CONTENT */
+               .tablinks {
+                    font-size: 1em;
+                    overflow: hidden;
+                    border: none;
+                    background-color: #d04e3e;
+                   color: #fff;
+                   font-weight: bold; 
+               }
+               
+               /* Style the buttons that are used to open the tab content */
+               .tablinks button {
+                    background-color: inherit;
+                    float: left;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    padding: 14px 16px;
+                    transition: 0.3s;
+                    
+                    
+               }
+               
+               /* Change background color of buttons on hover */
+               .tablinks button:hover {
+                    background-color: rgb(255, 255, 255);
+               }
+               
+               /* Create an active/current tablink class */
+               .tablinks button.active {
+                    background-color: rgb(51, 41, 41);
+               }
+               
+               /* Style the tab content */
+               .tabcontent {
+                    display: none;
+                    padding: 6px 12px;
+                    
+               
+               } 
